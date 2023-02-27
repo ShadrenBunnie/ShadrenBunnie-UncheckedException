@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Lab {
     /**
@@ -13,7 +14,40 @@ public class Lab {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
+
+
     public void throwUncheckedException(){
 
-    }
+        int a = 12;
+        int b = 6;
+        int c = 3;
+        int d = 2;
+        int e = 1;
+        int f = 0;
+
+        System.out.println("a = "+ a);
+        System.out.println("b = " +b);
+        System.out.println("c = " +c);
+        System.out.println("d = " +d);
+        System.out.println("e = " +e);
+        System.out.println("f = " +f);
+
+        int sum1 = a / b;
+			System.out.println("The sum of a / b = " +sum1);
+        int sum2 = a / c;
+			System.out.println("The sum of a / c = " +sum2);
+        int sum3 = a / d;
+			System.out.println("The sum of a / d = " +sum3);
+        int sum4 = a / e;
+			System.out.println("The sum of a / e = " +sum4);
+        int sum5 = a / f;
+			System.out.println("The sum of a / f = " +sum5);
+
+
+
+
+        }
+
+    
+    
 }
